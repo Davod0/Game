@@ -1,0 +1,19 @@
+dotnet add package Microsoft.EntityFrameworkCore 
+
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite 
+
+
+dotnet new webapi
+
+dotnet add package Microsoft.AspNetCore
+
+dotnet tool install --global dotnet-ef --version 7.0.15
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.15
+
+dotnet ef migrations add namnpåmigration
+
+
+dotnet ef database update
+
+
